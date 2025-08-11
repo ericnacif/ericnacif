@@ -42,22 +42,13 @@ Sou um desenvolvedor apaixonado por tecnologia e café, morando em Manhuaçu-MG,
 
 ### 📊 Minhas Estatísticas no GitHub
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=ericnacif&theme=dark&hide_border=false&include_all_commits=true" alt="Github Stats"/>
-    </td>
-    <td valign="top" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ericnacif&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <br />
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=ericnacif&theme=dark&hide_border=false" alt="GitHub Streak"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=ericnacif&theme=dark&hide_border=false&include_all_commits=true" alt="Estatísticas do GitHub de Eric Nacif"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ericnacif&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Linguagens Mais Usadas por Eric Nacif"/>
+</p>
+<p align="center">
+  <img width="60%" src="https://streak-stats.demolab.com/?user=ericnacif&theme=dark&hide_border=false" alt="GitHub Streak de Eric Nacif"/>
+</p>
 
 ---
 
@@ -65,6 +56,6 @@ Sou um desenvolvedor apaixonado por tecnologia e café, morando em Manhuaçu-MG,
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ericnacif&theme=darkhub&no-frame=true&no-bg=true&column=8" alt="GitHub Trophies"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=ericnacif&theme=darkhub&no-frame=true&no-bg=true&column=8" alt="Troféus do GitHub de Eric Nacif"/>
   </a>
 </p>
