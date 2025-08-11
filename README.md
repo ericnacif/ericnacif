@@ -8,7 +8,7 @@
   <a href="mailto:naciferic7@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
   </a>
-  <a href="https://www.linkedin.com/in/SEU-PERFIL-AQUI" target="_blank">
+  <a href="https://www.linkedin.com/in/eric-nacif-956930324/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://wa.me/5533997088999" target="_blank">
@@ -30,7 +30,7 @@
 ### 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=laravel,php,mysql,javascript,bootstrap,git,docker,linux,vscode&perline=5" />
+  <img src="https://skillicons.dev/icons?i=laravel,php,js,bootstrap,react,vue,notion,vscode,java,git&perline=10" alt="My Tech Stack"/>
 </div>
 
 ---
