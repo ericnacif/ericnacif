@@ -1,6 +1,8 @@
 <div align="center">
   <h1>Eric Nacif</h1>
-  <p><strong>Desenvolvedor de Software | Backend com Foco em PHP & Laravel</strong></p>
+ <p align="center">
+  <strong>Desenvolvedor Full Stack | Backend com PHP & Laravel | Frontend com Vue & React</strong>
+</p>
   <p>Construindo soluções robustas e escaláveis com código limpo e eficiente.</p>
 </div>
 
@@ -20,32 +22,16 @@
 
 ### 👨‍💻 Sobre Mim
 
-- 💡 Tenho experiência em desenvolver e manter aplicações web complexas, com foco em performance e boas práticas de arquitetura de software.
-- 👨‍💻 Apaixonado por resolver problemas, transformo requisitos de negócio em sistemas funcionais e de alta qualidade.
-- 🌱 Estou sempre aprimorando minhas habilidades, atualmente com foco em aprofundar meus conhecimentos em Design Patterns e Testes Automatizados.
-- 📫 Aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato.
+Sou um desenvolvedor apaixonado por criar soluções web eficientes e escaláveis. Atualmente, estou dedicando meus estudos para ser capaz de construir aplicações completas.
 
+- 👨‍💻 Minha experiência principal é no **backend**, onde utilizo **PHP** e **Laravel** para desenvolver as APIs e a lógica de negócio que sustentam as aplicações.
+- 🎨 Estou expandindo ativamente minhas habilidades no **frontend**, estudando e aplicando **JavaScript**, **Vue.js** e **React** para criar interfaces interativas e modernas.
+- 🌱 Acredito no aprendizado contínuo e estou sempre buscando novos desafios para evoluir como profissional.
+- 📫 Aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato.
 ---
 
 ### 🛠️ Tech Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=laravel,php,js,bootstrap,react,vue,notion,vscode,java,git&perline=10" alt="My Tech Stack"/>
-</div>
-
----
-
-### 📊 Estatísticas do GitHub
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ericnacif&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ericnacif&show_icons=true&theme=default&include_all_commits=true&count_private=true">
-    <img alt="Estatísticas do GitHub de Eric Nacif" src="https://github-readme-stats.vercel.app/api?username=ericnacif&show_icons=true&theme=default&include_all_commits=true&count_private=true" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ericnacif&layout=compact&langs_count=7&theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ericnacif&layout=compact&langs_count=7&theme=default">
-    <img alt="Linguagens Mais Usadas por Eric Nacif" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ericnacif&layout=compact&langs_count=7&theme=default" />
-  </picture>
 </div>
