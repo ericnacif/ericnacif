@@ -1,61 +1,51 @@
-### Olá, eu sou o Eric Nacif! 👋
+<div align="center">
+  <h1>Eric Nacif</h1>
+  <p><strong>Desenvolvedor de Software | Backend com Foco em PHP & Laravel</strong></p>
+  <p>Construindo soluções robustas e escaláveis com código limpo e eficiente.</p>
+</div>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ericnacif&label=Profile%20views&color=0e75b6&style=flat" alt="ericnacif" /> </p>
-
-Sou um desenvolvedor apaixonado por tecnologia e café, morando em Manhuaçu-MG, no coração de uma das maiores regiões cafeeiras do Brasil. Minha jornada na programação é movida pela busca de soluções que otimizem processos e tragam mais eficiência para o agronegócio e outras áreas.
-
-- 🔭 Atualmente estou trabalhando em projetos que envolvem a rastreabilidade e gestão no setor de café.
-- 🌱 Estou sempre aprendendo mais sobre **Laravel, Vue.js e arquiteturas de software robustas**.
-- 👯 Procuro colaborar em projetos de código aberto que tenham um impacto positivo.
-- 💬 Me chame para falar sobre **PHP, Laravel, e claro, sobre um bom café especial**!
-- 📫 Como me encontrar: **eric@certificafe.com.br**
+<div align="center">
+  <a href="mailto:naciferic7@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  <a href="https://www.linkedin.com/in/SEU-PERFIL-AQUI" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://wa.me/5533997088999" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+  </a>
+</div>
 
 ---
 
-### 🚀 Minhas Habilidades
+### 👨‍💻 Sobre Mim
 
-<p align="left">
-  <a href="https://laravel.com/" target="_blank" rel="noreferrer">
-            <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-  </a>
-  <a href="https://www.php.net" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  </a>
-  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  </a>
-   <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-  </a>
-</p>
+- 💡 Tenho experiência em desenvolver e manter aplicações web complexas, com foco em performance e boas práticas de arquitetura de software.
+- 👨‍💻 Apaixonado por resolver problemas, transformo requisitos de negócio em sistemas funcionais e de alta qualidade.
+- 🌱 Estou sempre aprimorando minhas habilidades, atualmente com foco em aprofundar meus conhecimentos em Design Patterns e Testes Automatizados.
+- 📫 Aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato.
 
 ---
 
-### 📊 Minhas Estatísticas no GitHub
+### 🛠️ Tech Stack
 
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=ericnacif&theme=dark&hide_border=false&include_all_commits=true" alt="Estatísticas do GitHub de Eric Nacif"/>
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ericnacif&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Linguagens Mais Usadas por Eric Nacif"/>
-</p>
-<p align="center">
-  <img width="60%" src="https://streak-stats.demolab.com/?user=ericnacif&theme=dark&hide_border=false" alt="GitHub Streak de Eric Nacif"/>
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=laravel,php,mysql,javascript,bootstrap,git,docker,linux,vscode&perline=5" />
+</div>
 
 ---
 
-### 🏆 Meus Troféus no GitHub
+### 📊 Estatísticas do GitHub
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ericnacif&theme=darkhub&no-frame=true&no-bg=true&column=8" alt="Troféus do GitHub de Eric Nacif"/>
-  </a>
-</p>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ericnacif&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ericnacif&show_icons=true&theme=default&include_all_commits=true&count_private=true">
+    <img alt="Estatísticas do GitHub de Eric Nacif" src="https://github-readme-stats.vercel.app/api?username=ericnacif&show_icons=true&theme=default&include_all_commits=true&count_private=true" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ericnacif&layout=compact&langs_count=7&theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ericnacif&layout=compact&langs_count=7&theme=default">
+    <img alt="Linguagens Mais Usadas por Eric Nacif" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ericnacif&layout=compact&langs_count=7&theme=default" />
+  </picture>
+</div>
