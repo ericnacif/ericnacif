@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Eric Nacif</h1>
  <p align="center">
-  <strong>Desenvolvedor Full Stack | Backend com PHP & Laravel | Frontend com Vue & React</strong>
+  <strong>Desenvolvedor Full Stack | Mobile
 </p>
   <p>Construindo soluções robustas e escaláveis com código limpo e eficiente.</p>
 </div>
