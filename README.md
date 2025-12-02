@@ -33,5 +33,5 @@ Sou um desenvolvedor apaixonado por criar soluções web eficientes e escalávei
 ### 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=laravel,php,js,bootstrap,react,vue,java,git&perline=10" alt="My Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=laravel,php,js,tailwind,react,vue,next,typescript,git&perline=10" alt="My Tech Stack"/>
 </div>
