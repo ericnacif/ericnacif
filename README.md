@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Eric Nacif</h1>
  <p align="center">
-  <strong>Desenvolvedor Full Stack | Mobile
+  <strong>Desenvolvedor Full Stack | Mobile</strong>
 </p>
   <p>Construindo soluções robustas e escaláveis com código limpo e eficiente.</p>
 </div>
@@ -22,16 +22,19 @@
 
 ### 👨‍💻 Sobre Mim
 
-Sou um desenvolvedor apaixonado por criar soluções web eficientes e escaláveis. Atualmente, estou dedicando meus estudos para ser capaz de construir aplicações completas.
+Desenvolvedor **Full Stack e Mobile** com experiência prática na construção e evolução de aplicações web escaláveis.
 
-- 👨‍💻 Minha experiência principal é no **backend**, onde utilizo **PHP** e **Laravel** para desenvolver as APIs e a lógica de negócio que sustentam as aplicações.
-- 🎨 Estou expandindo ativamente minhas habilidades no **frontend**, estudando e aplicando **JavaScript**, **Vue.js** e **React** para criar interfaces interativas e modernas.
-- 🌱 Acredito no aprendizado contínuo e estou sempre buscando novos desafios para evoluir como profissional.
-- 📫 Aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato.
+- **Backend:** Domínio em **PHP e Laravel**, com foco em desenvolvimento de APIs, otimização de consultas SQL e integração de serviços.
+- **Mobile & Frontend:** Desenvolvimento de aplicações modernas utilizando **Flutter**, **JavaScript** e frameworks como **React**.
+- **Dados:** Experiência com bancos de dados relacionais (**SQL**) e NoSQL (**MongoDB**).
+- **Metodologias:** Trabalho sob o fluxo **Kanban**, garantindo entregas contínuas e alinhadas com os objetivos do produto.
+
+Busco constantemente evoluir em arquitetura de sistemas e na construção de produtos digitais que facilitem a vida do usuário final.
+
 ---
 
 ### 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=laravel,php,js,tailwind,react,vue,next,typescript,git&perline=10" alt="My Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=laravel,php,js,tailwind,react,vue,next,typescript,flutter,git,mongodb,mysql&perline=12" alt="My Tech Stack"/>
 </div>
