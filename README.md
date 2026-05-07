@@ -32,9 +32,15 @@ Desenvolvedor **Full Stack e Mobile** com experiência prática na construção 
 Busco constantemente evoluir em arquitetura de sistemas e na construção de produtos digitais que facilitem a vida do usuário final.
 
 ---
-
 ### 🛠️ Tech Stack
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=laravel,php,js,flutter,mysql&perline=5" alt="My Tech Stack"/>
+</div>
+
+---
+
+### 📊 Linguagens mais usadas
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=laravel,php,js,tailwind,react,vue,next,typescript,flutter,git,mongodb,mysql&perline=12" alt="My Tech Stack"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ericnacif&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 </div>
