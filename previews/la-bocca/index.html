@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#4b2d24" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="description" content="Prévia demonstrativa de formulário de orçamento para La Bocca Buffet." />
+  <title>La Bocca Buffet | Solicitação de orçamento</title>
+  <style>
+    :root{
+      --ink:#2f241f;
+      --muted:#7f7269;
+      --brown:#4b2d24;
+      --brown-2:#6f4637;
+      --brown-3:#8a5e49;
+      --cream:#f7f2ea;
+      --cream-2:#fcfaf6;
+      --line:#e8ddd1;
+      --gold:#b48d63;
+      --white:#ffffff;
+      --good:#456552;
+      --shadow:0 22px 64px rgba(53,31,23,.08);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:linear-gradient(180deg,#f6f0e8 0%,#fbf8f3 100%);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+    button,input,select,textarea{font:inherit}
+    button{cursor:pointer}
+    a{text-decoration:none;color:inherit}
+
+    .topbar{background:rgba(75,45,36,.96);backdrop-filter:blur(12px);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+    .topbar-inner{max-width:1200px;margin:0 auto;padding:16px 28px;min-height:80px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;flex-direction:column;line-height:1;text-decoration:none}
+    .brand strong{font-family:Georgia,"Times New Roman",serif;font-size:31px;font-weight:400;letter-spacing:-.06em}
+    .brand span{font-size:10px;letter-spacing:.34em;text-transform:uppercase;opacity:.72;margin-top:5px;padding-left:2px}
+    .chip{display:inline-flex;align-items:center;gap:8px;padding:9px 13px;border-radius:999px;border:1px solid rgba(255,255,255,.18);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#eed8c0;background:rgba(255,255,255,.04)}
+
+    .page{max-width:1200px;margin:0 auto;padding:52px 28px 88px}
+    .hero{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:28px;align-items:end;margin-bottom:28px}
+    .eyebrow{display:flex;align-items:center;gap:10px;color:var(--brown-2);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:800}
+    .eyebrow:before{content:"";width:26px;height:1px;background:var(--gold)}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(40px,5vw,68px);line-height:1.02;letter-spacing:-.06em;margin:16px 0 14px;max-width:720px}
+    h1 em{font-style:italic;color:var(--brown-3)}
+    .hero p{max-width:620px;color:var(--muted);line-height:1.8;font-size:15px;margin:0}
+    .hero-card{background:rgba(255,255,255,.7);border:1px solid var(--line);border-radius:18px;padding:18px 18px 16px;box-shadow:var(--shadow)}
+    .hero-card-title{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brown-2);font-weight:800;margin-bottom:12px}
+    .hero-list{display:grid;gap:10px}
+    .hero-item{display:grid;grid-template-columns:26px 1fr;gap:10px;align-items:start;color:var(--muted);font-size:13px;line-height:1.55}
+    .hero-icon{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#f7ecde;color:var(--brown);font-weight:700;font-size:12px}
+
+    .layout{display:grid;grid-template-columns:minmax(0,1fr) 325px;gap:22px;align-items:start}
+    .panel{background:var(--white);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);overflow:hidden}
+    .section{padding:32px 34px;border-bottom:1px solid var(--line)}
+    .section:last-child{border-bottom:0}
+    .section-head{display:flex;gap:16px;align-items:flex-start;margin-bottom:24px}
+    .step{width:32px;height:32px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;font-size:11px;font-weight:800;color:var(--brown);flex:0 0 32px}
+    .section h2{font-family:Georgia,"Times New Roman",serif;font-size:28px;line-height:1.1;letter-spacing:-.03em;font-weight:400;margin:0 0 6px}
+    .section-head p{margin:0;color:var(--muted);font-size:13px;line-height:1.65;max-width:620px}
+
+    .field-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .field{display:flex;flex-direction:column;gap:8px;min-width:0}
+    .span-2{grid-column:1/-1}
+    .field-label{font-size:13px;font-weight:800;color:#45362f}
+    .field-help{font-size:12px;color:var(--muted);line-height:1.5;margin-top:-2px}
+    .field input,.field select,.field textarea{
+      width:100%;border:1px solid var(--line);background:var(--cream-2);border-radius:12px;outline:none;color:var(--ink);
+      min-height:50px;padding:14px 15px;font-size:14px;transition:border-color .18s, box-shadow .18s, background .18s;
+      appearance:none;
+    }
+    .field textarea{resize:vertical;min-height:106px}
+    .field input:focus,.field select:focus,.field textarea:focus{border-color:#bb9370;box-shadow:0 0 0 4px rgba(180,141,99,.14);background:#fff}
+    .field input::placeholder,.field textarea::placeholder{color:#aea39a}
+    .select-wrap{position:relative}
+    .select-wrap:after{content:"⌄";position:absolute;right:14px;top:42px;color:#9b8476;pointer-events:none}
+
+    .type-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .type-option{position:relative}
+    .type-option input{position:absolute;opacity:0;pointer-events:none}
+    .type-card{display:flex;flex-direction:column;gap:5px;min-height:92px;padding:15px 14px;border:1px solid var(--line);border-radius:14px;background:#fff;transition:border-color .18s, transform .18s, background .18s, box-shadow .18s;cursor:pointer}
+    .type-card:hover{transform:translateY(-1px);border-color:#c9ab90}
+    .type-option input:checked + .type-card{background:#f8f1e8;border-color:var(--gold);box-shadow:0 10px 24px rgba(74,45,35,.08)}
+    .type-card strong{font-size:14px;color:#3f2f28}
+    .type-card span{font-size:12px;color:var(--muted);line-height:1.45}
+
+    .group{padding:0 0 24px}
+    .group:last-child{padding-bottom:0}
+    .group-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:14px}
+    .group-title{font-size:15px;font-weight:800;margin:0 0 4px}
+    .group-sub{font-size:12px;color:var(--muted);line-height:1.55}
+    .group-count{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#937865;white-space:nowrap;margin-top:2px}
+    .choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+    .choice{position:relative;display:flex;gap:12px;align-items:flex-start;min-height:58px;padding:14px;border-radius:12px;border:1px solid var(--line);background:#fff;transition:border-color .18s, background .18s, transform .18s;cursor:pointer}
+    .choice:hover{border-color:#ccb29c;transform:translateY(-1px)}
+    .choice input{position:absolute;opacity:0;pointer-events:none}
+    .tick{width:20px;height:20px;flex:0 0 20px;border-radius:6px;border:1px solid #cfbfb0;display:grid;place-items:center;transition:all .18s;margin-top:1px}
+    .tick:before{content:"✓";font-size:12px;font-weight:900;color:#fff;transform:scale(0);transition:transform .18s}
+    .choice input:checked + .tick{background:var(--brown);border-color:var(--brown)}
+    .choice input:checked + .tick:before{transform:scale(1)}
+    .choice:has(input:checked){background:#fbf5ee;border-color:#b48d63}
+    .choice-body{display:flex;flex-direction:column;gap:3px}
+    .choice-title{font-size:13px;font-weight:700;color:#3f3029;line-height:1.35}
+    .choice-copy{font-size:12px;color:var(--muted);line-height:1.45}
+
+    .soft-box{margin-top:20px;padding:15px 16px;border-radius:12px;border:1px solid #eee2d6;background:#fcf8f2;color:#7e6758;font-size:12px;line-height:1.65}
+
+    .summary{position:sticky;top:24px;border-radius:20px;background:linear-gradient(180deg,#4b2d24 0%,#40261f 100%);color:#fff;padding:28px 24px;box-shadow:0 22px 54px rgba(45,26,20,.18)}
+    .summary-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding-bottom:18px;border-bottom:1px solid rgba(255,255,255,.14)}
+    .summary h2{font-family:Georgia,"Times New Roman",serif;font-size:28px;line-height:1.1;font-weight:400;letter-spacing:-.03em;margin:0}
+    .summary small{display:block;font-size:11px;color:#d8c3b5;line-height:1.55;margin-top:5px}
+    .summary-badge{font-size:22px;color:#f0d3ae}
+    .summary-section{margin:18px 0 0}
+    .summary-kv{display:grid;gap:10px}
+    .kv-row{display:flex;justify-content:space-between;gap:14px;font-size:12px;line-height:1.5;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+    .kv-row:last-child{border-bottom:0}
+    .kv-row span{color:#d9c7bc}
+    .kv-row strong{text-align:right;font-weight:700;color:#fff;max-width:58%}
+    .summary-label{font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:#d6b496;margin:20px 0 8px}
+    .summary-empty{border:1px dashed rgba(255,255,255,.2);border-radius:12px;padding:16px 14px;font-size:13px;line-height:1.7;color:#decdc2}
+    .summary-group{margin-bottom:15px}
+    .summary-list{display:flex;flex-wrap:wrap;gap:6px}
+    .summary-tag{font-size:11px;line-height:1.25;padding:7px 9px;border-radius:999px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.08)}
+    .summary-total{margin-top:18px;padding-top:18px;border-top:1px solid rgba(255,255,255,.14);display:flex;align-items:end;justify-content:space-between;gap:12px}
+    .summary-total span{font-size:12px;color:#d8c4b8}
+    .summary-total strong{font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:400}
+    .primary{width:100%;margin-top:18px;min-height:54px;border:0;border-radius:12px;background:#f2e4d2;color:#4b2d24;font-size:14px;font-weight:800;transition:transform .18s, background .18s, box-shadow .18s}
+    .primary:hover{background:#fff;transform:translateY(-1px);box-shadow:0 10px 25px rgba(10,10,10,.14)}
+    .summary-note{font-size:11px;line-height:1.7;color:#d2bfb3;text-align:center;margin:12px 0 0}
+    .ghost{display:block;margin:14px auto 0;border:0;background:none;color:#d6bfb3;font-size:12px;text-decoration:underline;text-underline-offset:3px}
+    .ghost:hover{color:#fff}
+
+    .footer{display:flex;justify-content:space-between;gap:18px;color:var(--muted);font-size:11px;line-height:1.75;padding-top:24px;margin-top:36px;border-top:1px solid var(--line)}
+
+    .overlay[hidden]{display:none}
+    .overlay{position:fixed;inset:0;display:grid;place-items:center;padding:22px;background:rgba(28,18,14,.66);backdrop-filter:blur(7px);z-index:50;animation:fade .22s ease}
+    .modal{width:min(100%,560px);background:#fff;border-radius:18px;padding:30px;box-shadow:0 32px 90px rgba(20,12,9,.28);animation:rise .24s ease}
+    .modal-icon{font-size:28px;line-height:1;color:var(--good);margin-bottom:12px}
+    .modal h2{font-family:Georgia,"Times New Roman",serif;font-size:34px;font-weight:400;line-height:1.1;letter-spacing:-.03em;margin:0 0 10px}
+    .modal p{font-size:13px;color:var(--muted);line-height:1.75}
+    .modal-detail{margin:16px 0 22px;padding:15px;border-radius:12px;background:var(--cream);font-size:13px;line-height:1.7;white-space:pre-line;max-height:34vh;overflow:auto}
+    .modal button{width:100%;min-height:50px;border:0;border-radius:10px;background:var(--brown);color:#fff;font-weight:800}
+    .modal button:hover{background:var(--brown-2)}
+
+    @keyframes fade{from{opacity:0}to{opacity:1}}
+    @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+    @media (max-width: 980px){
+      .hero{grid-template-columns:1fr}
+      .layout{grid-template-columns:1fr}
+      .summary{position:static}
+    }
+    @media (max-width: 700px){
+      .page{padding:34px 14px 58px}
+      .topbar-inner{padding:14px 16px;min-height:70px}
+      .brand strong{font-size:26px}
+      h1{font-size:44px}
+      .section{padding:26px 18px}
+      .section h2{font-size:24px}
+      .field-grid,.type-grid,.choices{grid-template-columns:1fr}
+      .span-2{grid-column:auto}
+      .footer{flex-direction:column;gap:6px}
+      .hero-card{padding:16px}
+    }
+    @media (prefers-reduced-motion: reduce){
+      html{scroll-behavior:auto}
+      *,*:before,*:after{animation:none!important;transition:none!important}
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#inicio" class="brand" aria-label="La Bocca Buffet — início">
+        <strong>la bocca.</strong>
+        <span>buffet</span>
+      </a>
+      <div class="chip">Prévia demonstrativa</div>
+    </div>
+  </header>
+
+  <main class="page" id="inicio">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">La Bocca Buffet</div>
+        <h1>Solicite um orçamento de forma <em>clara, elegante e personalizada.</em></h1>
+        <p>
+          Esta é uma prévia de como o site pode funcionar: o cliente informa os dados do evento,
+          escolhe os itens desejados e envia uma solicitação organizada para receber um orçamento personalizado.
+        </p>
+      </div>
+      <aside class="hero-card" aria-label="Como funciona">
+        <div class="hero-card-title">Como funciona</div>
+        <div class="hero-list">
+          <div class="hero-item"><div class="hero-icon">1</div><div>O cliente preenche <strong>data, local, quantidade de convidados</strong> e o tipo de evento.</div></div>
+          <div class="hero-item"><div class="hero-icon">2</div><div>Depois, escolhe os serviços e opções de cardápio que deseja incluir.</div></div>
+          <div class="hero-item"><div class="hero-icon">3</div><div>A equipe da La Bocca recebe tudo de forma organizada e retorna com o orçamento.</div></div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="layout">
+      <form class="panel" id="quote-form" novalidate>
+        <section class="section" aria-labelledby="section-evento">
+          <div class="section-head">
+            <div class="step">01</div>
+            <div>
+              <h2 id="section-evento">Conte para nós sobre o seu evento</h2>
+              <p>Comece preenchendo as informações principais da sua celebração. Assim conseguimos entender melhor o contexto do seu pedido.</p>
+            </div>
+          </div>
+
+          <div class="field-grid">
+            <div class="field span-2">
+              <div class="field-label">Qual é o tipo de evento?</div>
+              <div class="field-help">Selecione a opção que mais se aproxima da sua comemoração.</div>
+              <div class="type-grid" id="event-type-grid">
+                <label class="type-option">
+                  <input type="radio" name="event-type" value="Casamento">
+                  <span class="type-card"><strong>Casamento</strong><span>Recepção, cerimônia ou comemoração.</span></span>
+                </label>
+                <label class="type-option">
+                  <input type="radio" name="event-type" value="15 anos">
+                  <span class="type-card"><strong>15 anos</strong><span>Debutante, festa temática ou tradicional.</span></span>
+                </label>
+                <label class="type-option">
+                  <input type="radio" name="event-type" value="Aniversário">
+                  <span class="type-card"><strong>Aniversário</strong><span>Infantil, adulto ou comemoração em família.</span></span>
+                </label>
+                <label class="type-option">
+                  <input type="radio" name="event-type" value="Formatura">
+                  <span class="type-card"><strong>Formatura</strong><span>Jantar, baile ou confraternização.</span></span>
+                </label>
+                <label class="type-option">
+                  <input type="radio" name="event-type" value="Corporativo">
+                  <span class="type-card"><strong>Corporativo</strong><span>Eventos empresariais, confraternizações e recepções.</span></span>
+                </label>
+                <label class="type-option">
+                  <input type="radio" name="event-type" value="Outro evento">
+                  <span class="type-card"><strong>Outro evento</strong><span>Escolha esta opção para formatos diferentes.</span></span>
+                </label>
+              </div>
+            </div>
+
+            <label class="field">
+              <div class="field-label">Data do evento</div>
+              <div class="field-help">Informe a data prevista ou uma estimativa.</div>
+              <input type="date" id="event-date" aria-label="Data do evento">
+            </label>
+
+            <label class="field">
+              <div class="field-label">Quantidade de convidados</div>
+              <div class="field-help">Uma estimativa já ajuda bastante.</div>
+              <input id="guests" type="number" min="1" max="100000" inputmode="numeric" placeholder="Ex.: 120 convidados">
+            </label>
+
+            <label class="field span-2">
+              <div class="field-label">Local do evento</div>
+              <div class="field-help">Pode ser o nome do espaço, salão, chácara ou o endereço/cidade onde a festa será realizada.</div>
+              <input id="event-location" type="text" placeholder="Ex.: Chácara Veredas, Ponte Nova/MG">
+            </label>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="section-cardapio">
+          <div class="section-head">
+            <div class="step">02</div>
+            <div>
+              <h2 id="section-cardapio">Escolha o que deseja incluir no orçamento</h2>
+              <p>Selecione os itens e serviços que mais combinam com o seu evento. Esta etapa pode ser totalmente personalizada conforme o cardápio da La Bocca.</p>
+            </div>
+          </div>
+
+          <div id="menu-groups"></div>
+
+          <div class="soft-box">
+            <strong>Observação importante:</strong> esta prévia é demonstrativa. Os itens abaixo servem para mostrar como o site pode funcionar. O cardápio final e as combinações oficiais serão definidos com a La Bocca Buffet.
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="section-contato">
+          <div class="section-head">
+            <div class="step">03</div>
+            <div>
+              <h2 id="section-contato">Agora, seus dados para retorno</h2>
+              <p>Depois de receber sua solicitação, a equipe da La Bocca poderá analisar o pedido e retornar com um orçamento personalizado.</p>
+            </div>
+          </div>
+
+          <div class="field-grid">
+            <label class="field">
+              <div class="field-label">Seu nome</div>
+              <div class="field-help">Informe o nome da pessoa responsável pelo pedido.</div>
+              <input id="client-name" type="text" autocomplete="name" placeholder="Como podemos chamar você?" required>
+            </label>
+
+            <label class="field">
+              <div class="field-label">WhatsApp</div>
+              <div class="field-help">Será usado para enviar o orçamento e tirar dúvidas.</div>
+              <input id="client-phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(31) 99999-9999" required>
+            </label>
+
+            <label class="field span-2">
+              <div class="field-label">Observações adicionais</div>
+              <div class="field-help">Se desejar, conte mais sobre preferências, restrições, estilo do evento ou qualquer detalhe importante.</div>
+              <textarea id="notes" placeholder="Ex.: gostaria de uma proposta mais voltada para jantar, com opções elegantes e serviço para recepção."></textarea>
+            </label>
+          </div>
+        </section>
+      </form>
+
+      <aside class="summary" aria-label="Resumo da solicitação">
+        <div class="summary-head">
+          <div>
+            <h2>Resumo do pedido</h2>
+            <small>As informações preenchidas aparecem aqui em tempo real.</small>
+          </div>
+          <div class="summary-badge" aria-hidden="true">✦</div>
+        </div>
+
+        <div class="summary-section">
+          <div class="summary-label">Informações do evento</div>
+          <div class="summary-kv" id="event-kv">
+            <div class="kv-row"><span>Tipo de evento</span><strong>A definir</strong></div>
+            <div class="kv-row"><span>Data</span><strong>A definir</strong></div>
+            <div class="kv-row"><span>Convidados</span><strong>A definir</strong></div>
+            <div class="kv-row"><span>Local</span><strong>A definir</strong></div>
+          </div>
+        </div>
+
+        <div class="summary-label">Itens selecionados</div>
+        <div id="summary-content">
+          <div class="summary-empty">Nenhuma opção selecionada ainda. Escolha os itens desejados para montar o seu pedido.</div>
+        </div>
+
+        <div class="summary-total">
+          <span>Total de itens marcados</span>
+          <strong id="total-count">00</strong>
+        </div>
+
+        <button type="submit" form="quote-form" class="primary">Visualizar solicitação</button>
+        <p class="summary-note">Os valores seriam calculados pela equipe da La Bocca após análise do pedido.</p>
+        <button type="button" class="ghost" id="clear-selections">Limpar escolhas</button>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <span>La Bocca Buffet · Ponte Nova, MG</span>
+      <span>Prévia conceitual de formulário · Nenhum dado é enviado de verdade</span>
+    </footer>
+  </main>
+
+  <div class="overlay" id="result-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="dialog-title">
+    <div class="modal">
+      <div class="modal-icon">✓</div>
+      <h2 id="dialog-title">Solicitação pronta para envio</h2>
+      <p>Assim o pedido poderia chegar à equipe da La Bocca Buffet. Esta é apenas uma simulação demonstrativa — <strong>nenhuma informação foi enviada.</strong></p>
+      <div class="modal-detail" id="modal-detail"></div>
+      <button type="button" id="close-modal">Voltar ao formulário</button>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      const data = [
+        {
+          id:'salgados',
+          title:'Salgados volantes',
+          caption:'Opções ideais para recepção, circulação e serviço durante a festa.',
+          items:[
+            {name:'Coxinha',desc:'Clássica, muito pedida para recepções e aniversários.'},
+            {name:'Bolinha de queijo',desc:'Uma opção leve e tradicional para diferentes eventos.'},
+            {name:'Quibe',desc:'Salgado saboroso para compor o serviço volante.'},
+            {name:'Empadinha',desc:'Opção delicada e muito versátil para o cardápio.'},
+            {name:'Pastelzinho',desc:'Ideal para servir aos convidados com praticidade.'},
+            {name:'Croquete',desc:'Mais uma opção para deixar a seleção completa.'}
+          ]
+        },
+        {
+          id:'mineira',
+          title:'Mesa mineira',
+          caption:'Uma proposta acolhedora, saborosa e com identidade regional.',
+          items:[
+            {name:'Pão de queijo',desc:'Um clássico mineiro, perfeito para receber bem.'},
+            {name:'Torresmo',desc:'Tradicional e muito procurado em mesas temáticas.'},
+            {name:'Mandioca',desc:'Pode compor bem uma mesa rústica e acolhedora.'},
+            {name:'Queijos e frios',desc:'Uma opção elegante para complementar a mesa.'},
+            {name:'Linguiça artesanal',desc:'Item marcante para propostas mais regionais.'},
+            {name:'Tábua de petiscos',desc:'Ótima para servir com variedade e apresentação bonita.'}
+          ]
+        },
+        {
+          id:'jantar',
+          title:'Jantar',
+          caption:'Escolhas para compor uma refeição mais completa para o evento.',
+          items:[
+            {name:'Carne assada',desc:'Sugestão de proteína para uma proposta clássica.'},
+            {name:'Frango ao molho',desc:'Alternativa versátil para diferentes perfis de festa.'},
+            {name:'Arroz branco',desc:'Acompanhamento essencial para compor o jantar.'},
+            {name:'Arroz temperado',desc:'Uma opção mais elaborada para complementar o menu.'},
+            {name:'Batatas gratinadas',desc:'Acompanhamento sofisticado e muito apreciado.'},
+            {name:'Salada especial',desc:'Para equilibrar e completar a composição do prato.'}
+          ]
+        }
+      ];
+
+      const esc = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+      const groups = document.getElementById('menu-groups');
+      const summary = document.getElementById('summary-content');
+      const total = document.getElementById('total-count');
+      const eventKv = document.getElementById('event-kv');
+      const overlay = document.getElementById('result-overlay');
+      const form = document.getElementById('quote-form');
+      let previousFocus = null;
+
+      groups.innerHTML = data.map((cat, i) => `
+        <div class="group">
+          <div class="group-heading">
+            <div>
+              <div class="group-title">${String(i + 1).padStart(2,'0')} · ${esc(cat.title)}</div>
+              <div class="group-sub">${esc(cat.caption)}</div>
+            </div>
+            <div class="group-count" id="count-${cat.id}">0 selecionados</div>
+          </div>
+          <div class="choices">
+            ${cat.items.map((item, j) => `
+              <label class="choice">
+                <input type="checkbox" name="menu" value="${esc(item.name)}" data-category="${cat.id}" id="${cat.id}-${j}">
+                <span class="tick" aria-hidden="true"></span>
+                <span class="choice-body">
+                  <span class="choice-title">${esc(item.name)}</span>
+                  <span class="choice-copy">${esc(item.desc)}</span>
+                </span>
+              </label>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+
+      function selectedType(){
+        return document.querySelector('input[name="event-type"]:checked')?.value || '';
+      }
+
+      function chosen(){
+        return [...document.querySelectorAll('input[name="menu"]:checked')].map(el => ({
+          name: el.value,
+          category: el.dataset.category
+        }));
+      }
+
+      function formatDate(value){
+        if(!value) return 'A definir';
+        const [y,m,d] = value.split('-');
+        return `${d}/${m}/${y}`;
+      }
+
+      function updateEventSummary(){
+        const type = selectedType() || 'A definir';
+        const date = formatDate(document.getElementById('event-date').value);
+        const guests = document.getElementById('guests').value ? `${document.getElementById('guests').value} convidados` : 'A definir';
+        const location = document.getElementById('event-location').value.trim() || 'A definir';
+
+        eventKv.innerHTML = `
+          <div class="kv-row"><span>Tipo de evento</span><strong>${esc(type)}</strong></div>
+          <div class="kv-row"><span>Data</span><strong>${esc(date)}</strong></div>
+          <div class="kv-row"><span>Convidados</span><strong>${esc(guests)}</strong></div>
+          <div class="kv-row"><span>Local</span><strong>${esc(location)}</strong></div>
+        `;
+      }
+
+      function refreshChoices(){
+        const picks = chosen();
+        total.textContent = String(picks.length).padStart(2,'0');
+
+        data.forEach(cat => {
+          const count = picks.filter(p => p.category === cat.id).length;
+          document.getElementById(`count-${cat.id}`).textContent = `${count} selecionado${count === 1 ? '' : 's'}`;
+        });
+
+        summary.innerHTML = picks.length
+          ? data.map(cat => {
+              const selected = picks.filter(p => p.category === cat.id);
+              if(!selected.length) return '';
+              return `
+                <div class="summary-group">
+                  <div class="summary-label">${esc(cat.title)}</div>
+                  <div class="summary-list">
+                    ${selected.map(item => `<span class="summary-tag">${esc(item.name)}</span>`).join('')}
+                  </div>
+                </div>
+              `;
+            }).join('')
+          : `<div class="summary-empty">Nenhuma opção selecionada ainda. Escolha os itens desejados para montar o seu pedido.</div>`;
+      }
+
+      function refreshAll(){
+        updateEventSummary();
+        refreshChoices();
+      }
+
+      document.addEventListener('change', (e) => {
+        if(e.target.matches('input[name="menu"]') || e.target.matches('input[name="event-type"]') || e.target.matches('#event-date')) refreshAll();
+      });
+
+      document.addEventListener('input', (e) => {
+        if(e.target.matches('#guests') || e.target.matches('#event-location')) updateEventSummary();
+      });
+
+      document.getElementById('clear-selections').addEventListener('click', () => {
+        document.querySelectorAll('input[name="menu"]').forEach(el => el.checked = false);
+        document.querySelectorAll('input[name="event-type"]').forEach(el => el.checked = false);
+        document.getElementById('event-date').value = '';
+        document.getElementById('guests').value = '';
+        document.getElementById('event-location').value = '';
+        document.getElementById('client-name').value = '';
+        document.getElementById('client-phone').value = '';
+        document.getElementById('notes').value = '';
+        refreshAll();
+      });
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const type = selectedType();
+        const picks = chosen();
+        const name = document.getElementById('client-name').value.trim();
+        const phone = document.getElementById('client-phone').value.trim();
+
+        if(!type){
+          document.getElementById('event-type-grid').scrollIntoView({behavior:'smooth', block:'center'});
+          alert('Selecione o tipo de evento para continuar.');
+          return;
+        }
+        if(!document.getElementById('event-date').value){
+          document.getElementById('event-date').focus();
+          return;
+        }
+        if(!document.getElementById('event-location').value.trim()){
+          document.getElementById('event-location').focus();
+          return;
+        }
+        if(!document.getElementById('guests').value){
+          document.getElementById('guests').focus();
+          return;
+        }
+        if(!picks.length){
+          groups.scrollIntoView({behavior:'smooth', block:'center'});
+          alert('Selecione pelo menos uma opção para o orçamento.');
+          return;
+        }
+        if(!name){
+          document.getElementById('client-name').focus();
+          return;
+        }
+        if(!phone){
+          document.getElementById('client-phone').focus();
+          return;
+        }
+
+        const lines = [
+          `Nome: ${name}`,
+          `WhatsApp: ${phone}`,
+          `Tipo de evento: ${type}`,
+          `Data do evento: ${formatDate(document.getElementById('event-date').value)}`,
+          `Quantidade de convidados: ${document.getElementById('guests').value}`,
+          `Local do evento: ${document.getElementById('event-location').value.trim()}`,
+          '',
+          ...data.flatMap(cat => {
+            const selected = picks.filter(item => item.category === cat.id).map(item => `- ${item.name}`);
+            return selected.length ? [cat.title + ':', ...selected, ''] : [];
+          }),
+          document.getElementById('notes').value.trim() ? `Observações: ${document.getElementById('notes').value.trim()}` : ''
+        ].filter(Boolean);
+
+        document.getElementById('modal-detail').textContent = lines.join('\n').trim();
+        previousFocus = document.activeElement;
+        overlay.hidden = false;
+        document.body.style.overflow = 'hidden';
+        document.getElementById('close-modal').focus();
+      });
+
+      function closeModal(){
+        overlay.hidden = true;
+        document.body.style.overflow = '';
+        previousFocus && previousFocus.focus && previousFocus.focus();
+      }
+
+      document.getElementById('close-modal').addEventListener('click', closeModal);
+      overlay.addEventListener('click', (e) => { if(e.target === overlay) closeModal(); });
+      document.addEventListener('keydown', (e) => { if(!overlay.hidden && e.key === 'Escape') closeModal(); });
+
+      refreshAll();
+    })();
+  </script>
+</body>
+</html>
