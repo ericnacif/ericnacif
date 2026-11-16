@@ -2,7 +2,7 @@
   <img src="assets/profile/header.svg" alt="Eric Nacif — Software Developer. Development, creativity and digital experiences." width="100%">
 </p>
 <p align="center">
-  <a href="https://ericnacif.dev"><img src="assets/profile/portfolio.svg" alt="Portfolio" width="30%"></a>
+  <a href="https://ericnacif.com.br"><img src="assets/profile/portfolio.svg" alt="Portfolio" width="30%"></a>
   <a href="https://www.linkedin.com/in/eric-nacif/"><img src="assets/profile/linkedin.svg" alt="LinkedIn" width="30%"></a>
   <a href="mailto:naciferic7@gmail.com"><img src="assets/profile/email.svg" alt="Email" width="30%"></a>
 </p>
@@ -47,4 +47,4 @@ Away from the keyboard, I'm into comics, illustration, writing, music, cinema an
 
 ---
 
-[Portfolio](https://ericnacif.dev) · [LinkedIn](https://www.linkedin.com/in/eric-nacif/) · [Email](mailto:naciferic7@gmail.com)
+[Portfolio](https://ericnacif.com.br) · [LinkedIn](https://www.linkedin.com/in/eric-nacif/) · [Email](mailto:naciferic7@gmail.com)
