@@ -1,39 +1,50 @@
-<div align="center">
-  <h1>Eric Nacif</h1>
- <p align="center">
-  <strong>Desenvolvedor Full Stack | Mobile</strong>
+<p align="center">
+  <img src="assets/profile/header.svg" alt="Eric Nacif — Software Developer. Development, creativity and digital experiences." width="100%">
 </p>
-  <p>Construindo soluções robustas e escaláveis com código limpo e eficiente.</p>
-</div>
+<p align="center">
+  <a href="https://ericnacif.dev"><img src="assets/profile/portfolio.svg" alt="Portfolio" width="30%"></a>
+  <a href="https://www.linkedin.com/in/eric-nacif/"><img src="assets/profile/linkedin.svg" alt="LinkedIn" width="30%"></a>
+  <a href="mailto:naciferic7@gmail.com"><img src="assets/profile/email.svg" alt="Email" width="30%"></a>
+</p>
 
-<div align="center">
-  <a href="mailto:naciferic7@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>
-  <a href="https://www.linkedin.com/in/eric-nacif-956930324/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://wa.me/5533997088999" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>
-</div>
+## About me
+
+<img src="assets/profile/01-about.svg" alt="" width="100%">
+
+I'm Eric, a software developer from Brazil working across web and mobile applications. I'm interested in how technology, creativity and product development come together to make digital experiences that people enjoy using.
+
+At **CertifiCafé**, I develop and maintain software for agricultural certification and due diligence, contributing to feature development, documentation, testing and code review. I also work on independent projects, from requirements and interface design to implementation.
+
+## Tech stack
+
+<img src="assets/profile/02-stack.svg" alt="" width="100%">
+
+| Area | Technologies |
+| :--- | :--- |
+| Web | PHP, Laravel, JavaScript, HTML, CSS, jQuery, Bootstrap |
+| Mobile | Dart, Flutter |
+| Data | SQL, MariaDB |
+| Workflow | Git, GitHub, automated testing, technical documentation |
+
+## Selected work
+
+<img src="assets/profile/03-work.svg" alt="" width="100%">
+
+**Eventuar — Business management software**  
+Independent full-stack project for an events business. Customer management, scheduling, finance and business workflows. Built with Next.js, TypeScript and Supabase. In development; source code is private.
+
+**CertifiCafé — Web & mobile software**  
+Contributing to a production platform for agricultural certification, including checklists, due diligence and mobile application restructuring. Source code is private.
+
+**[WhatsApp Bot Boilerplate](https://github.com/ericnacif/template-bot-whatsapp) — Open-source project**  
+A configurable Node.js starter for WhatsApp automation, with modular flows, session management, Redis and automated tests.
+
+## Off the keyboard
+
+<img src="assets/profile/04-off.svg" alt="" width="100%">
+
+Away from the keyboard, I'm into comics, illustration, writing, music, cinema and video games. These interests shape how I approach creative work and digital experiences.
 
 ---
 
-### 👨‍💻 Sobre Mim
-
-Desenvolvedor **Full Stack e Mobile** com experiência prática na construção e evolução de aplicações web escaláveis.
-
-- **Backend:** Domínio em **PHP e Laravel**, com foco em desenvolvimento de APIs, otimização de consultas SQL e integração de serviços.
-- **Mobile & Frontend:** Desenvolvimento de aplicações modernas utilizando **Flutter**, **JavaScript** e frameworks como **React**.
-- **Dados:** Experiência com bancos de dados relacionais (**SQL**) e NoSQL (**MongoDB**).
-- **Metodologias:** Trabalho sob o fluxo **Kanban**, garantindo entregas contínuas e alinhadas com os objetivos do produto.
-
-Busco constantemente evoluir em arquitetura de sistemas e na construção de produtos digitais que facilitem a vida do usuário final.
-
----
-### 🛠️ Tech Stack
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=laravel,php,js,flutter,mysql&perline=5" alt="My Tech Stack"/>
-</div>
+[Portfolio](https://ericnacif.dev) · [LinkedIn](https://www.linkedin.com/in/eric-nacif/) · [Email](mailto:naciferic7@gmail.com)
