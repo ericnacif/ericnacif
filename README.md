@@ -11,7 +11,7 @@
 
 <img src="assets/profile/01-about.svg" alt="" width="100%">
 
-I'm Eric, a software developer from Brazil working across web and mobile applications. I'm interested in how technology, creativity and product development come together to make digital experiences that people enjoy using.
+I'm Eric, a software developer from Brasil working across web and mobile applications. I'm interested in how technology, creativity and product development come together to make digital experiences that people enjoy using.
 
 At **CertifiCafé**, I develop and maintain software for agricultural certification and due diligence, contributing to feature development, documentation, testing and code review. I also work on independent projects, from requirements and interface design to implementation.
 
