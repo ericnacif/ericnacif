@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile/header.svg" alt="Eric Nacif — Software Developer. Development, creativity and digital experiences." width="100%">
+  <img src="assets/profile/header-brasil.svg" alt="Eric Nacif — Software Developer. Development, creativity and digital experiences." width="100%">
 </p>
 <p align="center">
   <a href="https://ericnacif.com.br"><img src="assets/profile/portfolio.svg" alt="Portfolio" width="30%"></a>
